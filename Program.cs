@@ -4,7 +4,7 @@ int[,] numbers = new int[massVol, massVol];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 int minsum = Int32.MaxValue;
-int indexLine = 1;
+int indexLine = 0;
 
 for (int i = 0; i < numbers.GetLength(0); i++)
 {
